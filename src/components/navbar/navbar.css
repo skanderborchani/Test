@@ -1,0 +1,39 @@
+
+
+.navbar {
+    display:flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+   
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-list {
+    width: 50%;
+    margin-left: 2%;
+}
+
+.navbar-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    font-weight: bold;
+}
+
+.navbar-button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    background-color: #fcc42e; 
+    margin-left: 2%;
+}
