@@ -5,7 +5,7 @@
     align-items: center;
     background-color: white;
     position: sticky;
-   
+    justify-content: center;
 }
 
 .logo {
