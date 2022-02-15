@@ -1,19 +1,22 @@
-
-
 .navbar {
-    display:flex;
+    display: flex;
     align-items: center;
     background-color: white;
-    position: sticky;
     justify-content: center;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .logo {
-    height: 50px;
+    height: 70px;
+    margin-left: 7%;
 }
 
 .navbar-list {
-    width: 50%;
+    width: 40%;
     margin-left: 2%;
 }
 
@@ -21,6 +24,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 li {
@@ -34,6 +38,9 @@ li {
     border-radius: 5px;
     outline: none;
     font-weight: bold;
-    background-color: #fcc42e; 
-    margin-left: 2%;
+    background-color: #fcc42e;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
 }
+

@@ -6,6 +6,7 @@ import Methode from './components/methode/Methode';
 import Reference from './components/Reference/Reference';
 import Societe from './components/societe/Societe';
 import Review from './components/reviews/Review';
+import Footer from '../../components/footer/Footer'
 
 const Accueil = () => {
   return <div>
@@ -16,6 +17,7 @@ const Accueil = () => {
       <Reference/>
       <Societe/>
       <Review/>
+      <Footer/>
   </div>;
 };
 

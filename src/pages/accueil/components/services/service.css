@@ -8,15 +8,17 @@
     font-size: medium;
     margin-top: 2%;
 }
-.conteneur{
+.c{
     margin-top: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 .block{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 
 }

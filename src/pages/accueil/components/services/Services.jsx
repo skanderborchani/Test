@@ -13,7 +13,7 @@ const Services = () => {
             <h1>Quels services nous fournissons </h1>
             <p>Nous nous engageons à fournir à nos clients tous en offrant à nos employés la meilleur formation  </p>
         </div>
-        <div className='conteneur'>
+        <div className='c'>
             <div className='Partie'>
                 <div className='block'>
                     <div className='text'>
@@ -35,20 +35,21 @@ const Services = () => {
                 <img src={centre} alt='centre'/>
             </div>
             <div className='partie'>
-                <div className='block'>
+            <div className='block'>
                     <div className='im'>
                         <img src={maintenance} alt='maintenance'/>
                         <img src={erp} alt='erp'/>
                     </div>
-                    <div className='text'>
-                        <h3>MAINTENANCE</h3>
-                        <p>Lorem ipsum dolor sit amet,consectutur quam</p>
-                        <h3>ERP/CRP</h3>
-                        <p>Lorem ipsum dolor sit amet,consectutur quam</p>
-                    </div>
+                    
+                            <div className='text'>
+                                    <h3>MAINTENANCE</h3>
+                                    <p>Lorem ipsum dolor sit amet,consectutur quam</p>
+                                    <h3>ERP/CRP</h3>
+                                    <p>Lorem ipsum dolor sit amet,consectutur quam</p>
+                            </div>
+                     </div>
+                 </div>
                 </div>
-            </div>
-        </div>
         
     </div>
   )
