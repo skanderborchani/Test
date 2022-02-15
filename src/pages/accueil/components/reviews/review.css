@@ -1,0 +1,71 @@
+.reputation {
+    background-image: url(/src/images/world-bg.png);
+    height: 900px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .Review h4 {
+    margin-top: 5%;
+    text-align: center;
+    color: #fcc42e;
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    .Review h1 {
+        text-align: center;
+    }
+    
+    .messages-wrapper {
+        display: block;
+        overflow-x: scroll;
+        animation: fadein  2s ease-in alternate;
+    }
+    
+    .messages-slider{
+        display: flex;
+        white-space: nowrap;
+    }
+    .message {
+        border:solid #fcc42e;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        height: 200px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .message span {
+        font-weight: 900;
+    }
+    .avatar {
+        width: 100px;
+    }
+    
+    .message-avatar-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+        
+    }
+    .messages-wrapper::-webkit-scrollbar {
+        width: 0;
+    }
+    @keyframes fadein {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    @keyframes fadeout{
+        from { opacity: 1; }
+        to { opacity: 0.5; }
+    }
+    

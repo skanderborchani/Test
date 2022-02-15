@@ -1,0 +1,27 @@
+.Intro {
+    background: linear-gradient(0deg, rgba(219,208,254,1) 22%, rgba(245,243,255,1) 64%);
+    display:flex;
+    width : 100%;
+}
+.btn {
+    background-color: #fcc42e; 
+    padding: 5px 28px;
+}
+.conteneur{
+   flex-direction:column;
+
+}
+.conteneur p {
+    margin-bottom: 55%;
+}
+.play{
+    display: flex;
+}
+.video{
+    display: flex;
+    margin-left: 200%;
+}
+.video p {
+    margin-left: 15%;
+    margin-top:30% ;
+}

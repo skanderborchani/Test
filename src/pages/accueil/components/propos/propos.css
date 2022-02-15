@@ -1,0 +1,20 @@
+.propos{
+    margin-top: 5%;
+    display:flex;
+}
+.about h4 {
+    color:#fcc42e ;
+    font-size: 1.3rem;
+    font-weight: bold
+}
+.about button {
+    margin-top: 20%;
+    margin-left: 60%;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    background-color: #fcc42e; 
+    cursor: pointer;
+}

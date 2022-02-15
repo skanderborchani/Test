@@ -1,0 +1,17 @@
+.societe{
+    background: linear-gradient(0deg, rgba(219,208,254,1) 22%, rgba(245,243,255,1) 64%);
+    display: flex;
+    overflow: auto;
+    align-items: center;
+}
+.para{
+    font-weight: bold;
+    width: 20%;
+    margin-left: 7%;
+}
+.imageS{
+   display: flex;
+   justify-content: space-between;
+   overflow-x: auto;
+   margin-left: 20%;
+}
